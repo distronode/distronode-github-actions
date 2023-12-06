@@ -1,0 +1,9 @@
+---
+version: 2
+updates:
+  - package-ecosystem: "distronode-github-actions"
+    directory: "/"
+    schedule:
+      interval: daily
+    labels:
+      - "skip-changelog"
